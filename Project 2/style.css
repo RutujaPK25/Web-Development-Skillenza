@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.section-title span {
+	color: crimson;
+}
+/*Project Section*/
+#projects .projects
+{
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#projects .projects-header h1{
+	margin-bottom: 50px;
+}
+#projects .all-projects{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 20px;
+}
+#projects .project-info{
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c, #485563 100%);
+	color: white;
+
+}
+#projects .project-info h1{
+	font-size: 4rem;
+	font-weight: 500;
+}
+#projects .project-info h2{
+	font-size: 1.8rem;
+	font-weight: 300;
+	margin-top: 10px
+}
+#projects .project-img{
+	flex-basis: 50%;
+	height: 20px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after{
+	content: '';
+	position: absolute;;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c, #485563 100%);
+    opacity: .7;
+}
+#projects .project-img img{
+	transition: .3s ease transform;
+}
+#projects .project-item:hover .project-img img{
+	transform: scale(1.1);
+}
+.about-title{
+	font-size: 1.2rem;
+	font-weight: 150;
+	color: black;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.title
+{
+	color: crimson;
+}
+.box
+{
+	width:20%;
+}
+table.custom_class {
+    border:solid 5px #006CFF;
+    margin:0px;
+    padding:0px;
+    border-spacing:0px;
+    border-collapse:collapse;
+    line-height:22px;
+    font-size:13px;
+    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
+    font-weight:400;
+    text-decoration:none;
+    color:#0018ff; 
+    white-space:pre-wrap;
+}
+table.custom_class th {
+  padding: 20px;
+  background-color:#98dcff;
+  border:solid 2px #006CFF;
+}
+table.custom_class td {
+  padding: 20px;
+  border:solid 1px #006CFF;
+}
+table.custom_class tr {
+    margin:0;
+    padding:4px;
+}
